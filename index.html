@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <h1>Gerador de senha</h1>
+    
+    <div>
+        <label>Tamanho da senha: </label>
+        <input type="number" min="0" max="25" id="senha"/>
+        <button onclick="gerarSenha()">Gerar Senha</button>
+    </div>
+
+    <div>
+        <span id="novaSenha"></span>
+    </div>
+    <div>
+        <button onclick="copiarTexto()">Copiar</button>
+    </div>
+</body>
+<script src="./src/script.js"></script>
+</html>
